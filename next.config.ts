@@ -1,7 +1,7 @@
-import type { NextConfig } from "next";
+const nextConfig = {
+  images: {
+      domains: ["cdn.imagin.studio"]
+  }
+}
 
-const nextConfig: NextConfig = {
-  /* config options here */
-};
-
-export default nextConfig;
+module.exports = nextConfig
